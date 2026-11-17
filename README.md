@@ -7,17 +7,12 @@ To write a program to predict the price of the house and number of occupants in 
 1. Hardware – PCs
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
-
-Algorithm
-Load California housing data, select features and targets, and split into training and testing sets.
-Scale both X (features) and Y (targets) using StandardScaler.
-Use SGDRegressor wrapped in MultiOutputRegressor to train on the scaled training data.
-Predict on test data, inverse transform the results, and calculate the mean squared error.
-Program:
+## Program:
+```
 /*
 Program to implement the multivariate linear regression model for predicting the price of the house and number of occupants in the house with SGD regressor.
-Developed by: Tharun g
-RegisterNumber: 212224250019
+Developed by: THULASI J
+RegisterNumber: 212224250020
 
 import numpy as np
 import pandas as pd
@@ -59,7 +54,13 @@ print("Mean Square Error:",mse)
 print("\nPredictions:\n",Y_pred[:5])
 
 */
-Output:
-image
-Result:
+```
+
+## Output:
+
+<img width="328" height="135" alt="image" src="https://github.com/user-attachments/assets/9685c867-d9df-4199-9ff7-904b198105a1" />
+
+
+## Result:
 Thus the program to implement the multivariate linear regression model for predicting the price of the house and number of occupants in the house with SGD regressor is written and verified using python programming.
+
